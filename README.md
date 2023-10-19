@@ -1,2 +1,1 @@
-# Basic-HTML
-Basic projects using only html
+Will be doing basic small projects using html only
