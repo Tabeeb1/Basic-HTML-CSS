@@ -1,0 +1,215 @@
+<style>
+  .first {
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    width: 115px;
+    border: none;
+    margin-right: 10px;
+    transition: opacity 1s;
+    cursor: pointer;
+  }
+
+  .first:hover {
+    opacity: 0.8;
+  }
+
+  .second {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    width: 200px;
+    height: 35px;
+    border-radius: 35px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .second:hover {
+    background-color: rgb(255, 217, 120);
+  }
+
+  .third {
+    background-color: rgb(46, 164, 79);
+    color: aliceblue;
+    height: 40px;
+    width: 95px;
+    border: none;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: box-shadow 1s;
+  }
+
+  .third:hover {
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .fourth {
+    background-color: rgb(121, 82, 179);
+    color: aliceblue;
+    height: 40px;
+    width: 105px;
+    border: none;
+    border-radius: 7px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 1s;
+  }
+
+  .fourth:hover {
+    background-color: rgb(111, 35, 182);
+  }
+
+  .fifth {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    height: 40px;
+    width: 115px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .fifth:hover {
+    color: white;
+    background-color: rgb(108, 117, 125);
+  }
+
+  .sixth {
+    background-color: rgb(10, 102, 194);
+    border: none;
+    width: 230px;
+    height: 40px;
+    border-radius: 35px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .sixth:hover {
+    background-color: rgb(29, 29, 185);
+  }
+
+  .seventh {
+    border-color: rgb(10, 102, 194);
+    width: 90px;
+    height: 45px;
+    border-radius: 35px;
+    font-weight: bold;
+    color: rgb(10, 102, 194);
+    margin-right: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .seventh:hover {
+    border-width: 3px;
+    background-color: rgb(223, 223, 243);
+  }
+
+  .linking {
+    color: rgb(0, 113, 133);
+    font-size: 25px;
+  }
+
+  .linking:hover {
+    color: orange;
+  }
+
+  .shoes {
+    margin-top: 50px;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  .stock {
+    margin-top: 50px;
+    color: rgb(0, 118, 0);
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .free {
+    margin-top: 30px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .cart {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 35px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .cart:hover {
+    background-color: rgb(243, 205, 18);
+  }
+
+  .cart:active {
+    opacity: 0.6;
+  }
+
+  .buying {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 35px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .buying:hover {
+    background-color: rgb(255, 156, 7);
+  }
+
+  .buying:active {
+    opacity: 0.6;
+  }
+</style>
+
+<button class="first">Request now</button>
+
+<button class="second">Add to Cart</button>
+
+<button class="third">Sign up</button>
+
+<p>Now lets get started with double buttons</p>
+
+<button class="fourth">Get started</button>
+
+<button class="fifth">Download</button>
+
+<p>Now lets do another with double buttons</p>
+
+<button class="sixth">Apply on company website</button>
+
+<button class="seventh">Save</button>
+
+<p>Now lets code the final part</p>
+
+<a href="https://www.amazon.com/" class="linking"> Back to Amazon </a>
+
+<p class="shoes">Nike Black Running Shoes</p>
+
+<p class="stock">$39 - in stock</p>
+
+<p class="free">Free delivery tomorrow.</p>
+
+<button class="cart">Add to Cart</button>
+
+<button class="buying">Buy now</button>
