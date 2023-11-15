@@ -1,0 +1,144 @@
+.fi{
+    display: flex;
+    flex-direction: row;
+    .fi1{
+        width: 200px;
+        background-color: lightblue;
+    }
+    .fi2{
+        width: 75px;
+        background-color: lightpink;
+    }
+}
+.fi2{
+    display: flex;
+    flex-direction: row;
+    .fi21{
+        width: 50px;
+        background-color: lightblue;
+    }
+    .fi22{
+        flex : 1;
+        background-color: lightpink ;
+    }
+    .fi23{
+        width: 75px;
+        background-color: lightblue ;
+    }
+}
+.fi3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .fi31{
+        background-color: lightblue;
+    }
+    .fi32{
+        background-color: lightpink ;
+    }
+    .fi33{
+        background-color: lightblue ;
+    }
+    .fi34{
+        background-color: lightpink ;
+    }
+}
+.fi4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    height: 50px;
+  }
+  .lightpink {
+    background-color: lightpink;
+  }
+.message-box{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-radius: 7px;
+    .home{
+        margin-left: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+    .notifications{
+        margin-left: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+    .messages{
+        margin-left: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+
+    }
+    .buttons{
+        margin-right: 15px;
+        height: 32px;
+        border-radius: 15px;
+        align-items: center;
+        border: none;
+        background-color: blue;
+        color: white;
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+    .buttons1{
+        margin-right: 15px;
+        height: 32px;
+        align-items: center;
+        border-radius: 15px;
+        border: none;
+        background-color: blue;
+        color: white;
+        padding-right: 12px;
+        padding-left: 18px;
+    }
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(202, 73, 202);
+    align-items: center;
+    height: 70px;
+    .basha{
+        font-weight: bold;
+        color: white;
+        margin-left: 17px;
+    }
+    .down{
+        font-size: 17px;
+        margin-right: 20px;
+        width: 120px;
+        height: 45px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        background-color: rgb(202, 73, 202);
+        color: white;
+        font-weight: bold;
+    }
+    .khujo{
+        width: 700px;
+        border: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 30px;
+        border-radius: 15px;
+        padding-left: 25px;
+    }
+}
