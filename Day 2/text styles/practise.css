@@ -1,0 +1,210 @@
+<style>
+  .font {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  .deal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 8px;
+  }
+  .sales {
+    color: red;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 28px;
+    margin-bottom: 34px;
+  }
+  .course {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 7px;
+  }
+  .beginner {
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #606060;
+    margin-bottom: 25px;
+  }
+  .description {
+    margin-top: 0px;
+    font-size: 31px;
+    width: 450px;
+    margin-bottom: 30px;
+  }
+  .start {
+    margin-top: 0px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    cursor: pointer;
+  }
+  .shop {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 18px;
+  }
+  .work {
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 24px;
+  }
+  .learn {
+    text-align: center;
+    color: rgba(29, 29, 179, 0.808);
+    font-size: 24px;
+  }
+  .new {
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 13px;
+  }
+  .macbook {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 11px;
+    margin-left: 5px;
+  }
+  .supercharge {
+    margin-top: 0px;
+    margin-bottom: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 52px;
+    font-weight: bold;
+    margin-left: 22px;
+  }
+  .charge {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 22px;
+  }
+  .buy {
+    color: white;
+    background-color: blue;
+    margin-left: 920px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .amount {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .currency {
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  .percantage {
+    margin-top: 0px;
+    font-size: 20px;
+    color: cadetblue;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hour {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    font-size: 20px;
+    color: #606060;
+  }
+  .negative {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    font-size: 20px;
+    color: red;
+  }
+  .code {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .camp {
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+  }
+  .description {
+    margin-top: 0px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    margin-bottom: 22px;
+  }
+  .dev {
+    margin-top: 0px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .skill {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+  }
+</style>
+<p class="font">This is Tahoma Font</p>
+<p>lets try another one</p>
+<p class="deal">Biggest Deals of the Year!</p>
+<p class="sales">Sales end Tuesday</p>
+<p>now another one</p>
+<p class="course">HTML CSS Course</p>
+<p class="beginner">Beginner to Pro</p>
+<p class="description">
+  In this course, we'll learn the skills you need to become a developer.
+</p>
+<button class="start">Get Started</button>
+<p>Now lets try another one</p>
+<p class="shop">Shopping for your business?</p>
+<p class="work">See how Apple at Work can help.</p>
+<p class="learn">Learn more &gt;</p>
+<p>Now lets do another one</p>
+<p class="new">New</p>
+<p class="macbook">MacBook Pro</p>
+<p class="supercharge">Supercharged for pros.</p>
+<p class="charge">From $1999</p>
+<button class="buy">Buy</button>
+<p>lets do another one</p>
+<p class="amount">1,049.61 <span class="currency">USD</span></p>
+<p class="percantage">+18.05 (1.75%) today</p>
+<p class="hour">
+  After hours 1,048.00 <span class="negative">-1.61 (0.15%)</span>
+</p>
+<p>Lets do the last one for today</p>
+<p class="code">freeCodeCamp.org <span class="camp">@freeCodeCamp 1h</span></p>
+<p class="description">
+  As a web developer, you'll want to make your projects easy to use and navigate
+  around.
+</p>
+<p class="dev">
+  Here <span class="skill">@chp_it</span> outlines the top skills new developers
+  should have.
+</p>
