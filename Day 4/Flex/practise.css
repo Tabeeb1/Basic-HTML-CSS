@@ -142,3 +142,111 @@
         padding-left: 25px;
     }
 }
+.first-cat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    .first-cat-picture{
+        width: 52px;
+        height: 52px;
+        border-radius: 26px;
+        object-fit: cover;
+    }
+    .picture-first-cat{
+        margin-left: 10px;
+    }
+    .description-first-cat{
+        margin-left: 18px;
+    }
+    .first-cat-desc-2, .first-cat-desc-3{
+        color: gray;
+    }
+    .first-cat-desc-1{
+        font-weight: bold;
+    }
+    .first-cat-button{
+        margin-left: 300px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(89, 48, 235);
+        border: none;
+        border-radius: 8px;
+    }
+}
+.second-cat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    .second-cat-picture{
+        width: 52px;
+        height: 52px;
+        border-radius: 26px;
+        object-fit: cover;
+    }
+    .picture-second-cat{
+        margin-left: 10px;
+    }
+    .description-second-cat{
+        margin-left: 18px;
+    }
+    .second-cat-desc-2, .second-cat-desc-3{
+        color: gray;
+    }
+    .second-cat-desc-1{
+        font-weight: bold;
+    }
+    .second-cat-button{
+        margin-left: 302px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(89, 48, 235);
+        border: none;
+        border-radius: 8px;
+    }
+}
+.third-cat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    .third-cat-picture{
+        width: 52px;
+        height: 52px;
+        border-radius: 26px;
+        object-fit: cover;
+    }
+    .picture-third-cat{
+        margin-left: 10px;
+    }
+    .description-third-cat{
+        margin-left: 18px;
+    }
+    .third-cat-desc-2, .third-cat-desc-3{
+        color: gray;
+    }
+    .third-cat-desc-1{
+        font-weight: bold;
+    }
+    .third-cat-button{
+        margin-left: 255px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(89, 48, 235);
+        border: none;
+        border-radius: 8px;
+    }
+}
